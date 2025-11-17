@@ -47,47 +47,14 @@ docker build -t docker-node-express-app .
 ▶️ Run Container
 docker run -p 3000:3000 docker-node-express-app
 
-
 Visit:
 👉 http://localhost:3000
 
-🧠 What You Learn From This Project
+📝 What This Project Demonstrates
 
-📌 Dockerfile best practices
+-Docker build context & layer caching
+-Best practices for Node.js Dockerfiles
+-Using Alpine base image for smaller images
+-Clean file management with .dockerignore
 
-📌 Docker image layers & caching
 
-📌 Exposing container ports
-
-📌 Using lightweight node:alpine base image
-
-📌 Clean build context with .dockerignore
-
-🖼️ Architecture Diagram (Simple)
-+------------------------+
-|     Your Machine       |
-|  (Browser → Port 3000) |
-+-----------+------------+
-            |
-            v
-+------------------------+
-|   Docker Container     |
-|  Node.js + Express     |
-|  Port 3000 exposed     |
-+-----------+------------+
-            |
-            v
-+------------------------+
-|     Docker Image       |
-|  Built using Dockerfile |
-+------------------------+
-
-📚 Technologies Used
-
-Node.js
-
-Express.js
-
-Docker
-
-Alpine Linux
