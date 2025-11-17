@@ -8,14 +8,6 @@ This repository demonstrates how to:
 - Build and run containerized applications  
 - Understand Docker networking & ports  
 
----
-
-## 📦 Project Overview
-
-This is a beginner-friendly yet industry-standard Docker project designed to strengthen your fundamentals and portfolio.
-
----
-
 ## 🗂️ Project Structure
 
 docker-node-express-app/
@@ -28,8 +20,6 @@ docker-node-express-app/
 └── README.md
 
 ---
-
-## 🛠️ Getting Started
 
 ### ✔ Run Locally (without Docker)
 
